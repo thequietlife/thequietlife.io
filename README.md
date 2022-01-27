@@ -1,3 +1,3 @@
 
-thequietlife.github.io
+my side projects: thequietlife.github.io
 
