@@ -1,3 +1,3 @@
 
-my side projects: thequietlife.github.io
+learning about bugs.
 
