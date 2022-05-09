@@ -1,2 +1,2 @@
-
+https://thequietlife.github.io/
 
