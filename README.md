@@ -1,2 +1,2 @@
-my security research field notes
+my security research field notes 🐛 💻
 
