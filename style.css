@@ -584,3 +584,9 @@ footer p {
 ::-webkit-scrollbar-thumb:hover {
     background: var(--orange-accent);
 }
+
+.btn-primary {
+    background: var(--bg-primary) !important;
+    color: var(--text-primary) !important;
+    border: 1px solid var(--border-accent) !important;
+}
