@@ -88,7 +88,7 @@ nav {
     left: 0;
     width: 0;
     height: 1px;
-    background: var(--purple-accent);
+    background: var(--orange-accent);
     transition: width 0.3s;
 }
 
@@ -172,8 +172,8 @@ nav {
 }
 
 .btn-primary:hover {
-    background: var(--purple-muted);
-    border-color: var(--purple-accent);
+    background: var(--orange-muted);
+    border-color: var(--orange-accent);
 }
 
 .btn-secondary {
@@ -184,7 +184,7 @@ nav {
 
 .btn-secondary:hover {
     color: var(--text-primary);
-    border-color: var(--purple-accent);
+    border-color: var(--orange-accent);
 }
 
 /* Sections */
@@ -210,7 +210,7 @@ nav {
     color: var(--text-primary);
     margin-bottom: 50px;
     letter-spacing: 1px;
-    border-left: 3px solid var(--purple-accent);
+    border-left: 3px solid var(--orange-accent);
     padding-left: 16px;
 }
 
@@ -244,7 +244,7 @@ nav {
 
 .project-card:hover {
     transform: translateY(-4px);
-    border-color: var(--purple-accent);
+    border-color: var(--orange-accent);
     background: var(--bg-secondary);
 }
 
@@ -262,7 +262,7 @@ nav {
 }
 
 .project-card h3 a:hover {
-    color: var(--purple-accent);
+    color: var(--orange-accent);
 }
 
 .project-card p {
@@ -299,7 +299,7 @@ nav {
 
 .blog-side-nav:hover:not(:disabled) {
     background: var(--bg-primary);
-    border-color: var(--purple-accent);
+    border-color: var(--orange-accent);
     color: var(--text-primary);
 }
 
@@ -343,7 +343,7 @@ nav {
 
 .blog-card:hover {
     transform: translateY(-4px);
-    border-color: var(--purple-accent);
+    border-color: var(--orange-accent);
     background: var(--bg-secondary);
 }
 
@@ -370,7 +370,7 @@ nav {
 }
 
 .read-more {
-    color: var(--purple-accent);
+    color: var(--orange-accent);
     text-decoration: none;
     font-weight: 500;
     font-size: 13px;
@@ -407,7 +407,7 @@ nav {
 
 .social-btn:hover {
     background: var(--bg-secondary);
-    border-color: var(--purple-accent);
+    border-color: var(--orange-accent);
     color: var(--text-primary);
     transform: translateY(-2px);
 }
@@ -433,7 +433,7 @@ nav {
 
 .training-card:hover {
     transform: translateY(-4px);
-    border-color: var(--purple-accent);
+    border-color: var(--orange-accent);
     background: var(--bg-secondary);
 }
 
@@ -476,7 +476,7 @@ nav {
 
 .cert-card:hover {
     transform: translateY(-4px);
-    border-color: var(--purple-accent);
+    border-color: var(--orange-accent);
     background: var(--bg-secondary);
 }
 
@@ -564,7 +564,7 @@ footer p {
 
 /* Selection styles */
 ::selection {
-    background: var(--purple-accent);
+    background: var(--orange-accent);
     color: var(--text-primary);
 }
 
@@ -582,5 +582,5 @@ footer p {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: var(--purple-accent);
+    background: var(--orange-accent);
 }
