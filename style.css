@@ -126,7 +126,7 @@ nav {
 }
 
 .glitch {
-    font-size: clamp(48px, 10vw, 96px);
+    font-size: clamp(36px, 8vw, 72px);
     font-weight: 700;
     color: var(--text-primary);
     letter-spacing: 4px;
