@@ -71,7 +71,7 @@ nav {
     color: var(--text-secondary);
     text-decoration: none;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 15px;
     letter-spacing: 0.5px;
     transition: color 0.2s;
     position: relative;
@@ -157,7 +157,7 @@ nav {
     padding: 12px 32px;
     text-decoration: none;
     font-weight: 500;
-    font-size: 13px;
+    font-size: 15px;
     letter-spacing: 1px;
     transition: all 0.3s;
     border: 1px solid;
