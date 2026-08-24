@@ -5,15 +5,14 @@
 
 :root {
   --bg: #000000;
-  --bg-raised: #1f2422;
-  --text: #e9e6dd;
-  --text-dim: #9aa39a;
-  --accent: #000000;
-  --hairline: #2c322f;
+  --bg-raised: #1a1a1a;
+  --text: #f5f5f5;
+  --text-dim: #999999;
+  --accent: #ffffff;
+  --hairline: #333333;
   --font-mono: 'IBM Plex Mono', 'JetBrains Mono', 'SFMono-Regular', Consolas, monospace;
   --font-serif: 'Source Serif 4', 'Iowan Old Style', 'Georgia', serif;
 }
-
 * {
   box-sizing: border-box;
 }
