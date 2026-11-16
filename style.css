@@ -106,7 +106,7 @@ body {
   justify-content: space-between;
   align-items: baseline;
   gap: 1.5rem;
-  padding: 1.25rem 0;
+  padding: 1.25rem 0 0.3rem;
   color: var(--text);
   text-decoration: none;
 }
@@ -166,7 +166,18 @@ body {
 }
 .post-blurb {
   margin: 0;
-  padding: 0;
+  padding: 0 0 1.25rem;   
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: var(--text-dim);
+}
+
+.intro {
+  max-width: 34rem;
+  margin: 0 auto 1.5rem;
+  font-size: 0.95rem;
+  color: var(--text-dim);
+}
 }
 
 .post-link {
