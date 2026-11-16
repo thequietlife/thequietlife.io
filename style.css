@@ -164,3 +164,12 @@ body {
     gap: 0.35rem;
   }
 }
+.post-blurb {
+  margin: 0;
+  padding: 0;
+}
+
+.post-link {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
