@@ -202,6 +202,7 @@ body {
   text-transform: lowercase;
   letter-spacing: 0.08em;
   color: var(--text);
+
 }
 
 .article-details {
