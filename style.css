@@ -194,6 +194,14 @@ body {
 .article-body p {
   margin: 0 0 1.25rem;
 }
+
+.article-body h1 {
+  margin: 0 0 1.25rem;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
 .article-body h2 {
   margin: 2.5rem 0 0.85rem;
 font-family: var(--font-mono);
