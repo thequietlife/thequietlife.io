@@ -184,3 +184,49 @@ body {
   margin-bottom: 0;
   padding-bottom: 0;
 }
+
+.article-body {
+  font-size: 1rem;
+  line-height: 1.75;
+  overflow-wrap: anywhere;
+}
+
+.article-body p {
+  margin: 0 0 1.25rem;
+}
+
+.article-body h2 {
+  margin: 0 0 0.85rem;
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.article-details {
+  margin-top: 2rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--hairline);
+}
+
+.article-details ul {
+  margin: 0;
+  padding-left: 1.4rem;
+}
+
+.article-details li {
+  margin-bottom: 0.65rem;
+  padding-left: 0.25rem;
+  line-height: 1.6;
+}
+
+.article-details li::marker {
+  color: var(--text-dim);
+}
+
+.article-body code {
+  padding: 0.1em 0.35em;
+  background: var(--bg-raised);
+  font-family: var(--font-mono);
+  font-size: 0.85em;
+}
+
