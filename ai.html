@@ -33,45 +33,59 @@
         </nav>
       </header>
 
-      <article>
-        <header>
-          <h1 class="name">🦙 setting up local AI</h1>
-          <p class="tagline">
-            <time datetime="2026-11">23 November 2026</time>
-          </p>
-        </header>
+    <div class="article-body">
+  <p>
+    My goal is to install and run Ollama locally. Why? It can run without
+    Wi-Fi or a data connection, and is allegedly private—nothing will leave
+    my house.
+  </p>
 
-        <div class="post-blurb">
-          <p>
-            ...
-          </p>
+  <p>
+    My hardware is a woeful 8GB Lenovo ThinkCentre M910q, but I want to use
+    what I have right now. From what I can see, Ollama can run with 8GB by
+    selecting a small model.
+  </p>
 
-          <h2>setting up local AI</h2>
-          <p>
-           My goal is to install and run Ollama locally. Why? It doesn't need WI-FI or data and is allegedly private, nothing will leave my house. My hardware is a woeful 8GB Lenovo ThinkCentre m910q but I want to use what I have right now. From what I can see you can use ollama even with 8GB by selecting a small model.
- I tried qwen2.5:3b. It works without WI-FI. But some of the info it was serving up was just wrong. I asked a couple of random questions like who was Molly Meldrum and Kylie Minogue. Both responses were wrong. I tried to have it analyse a pdf document, Sherman Kent and the Profession of Intelligence Analysis, but it didn't really provide the key parts of the doc. It just gave me a timeline of his life and list of published works. I was after 'Kent’s Analytic Doctrine'. 
-            I've ordered two 16GB RAM sticks which will push up the m910q to 32GB and let me use bigger AI models.
-          </p>
+  <p>
+    I tried <code>qwen2.5:3b</code>. It works without Wi-Fi, but some of the
+    information it gave me was wrong. I asked a couple of random questions,
+    like who Molly Meldrum and Kylie Minogue were. Both responses were wrong.
+  </p>
 
-          <h2>hardware</h2>
-          <p>
-           * 8GB Lenovo ThinkCentre m910q
-           * waiting on 2 x 16GB RAM sticks (G.Skill Ripjaws 16GB 3200MHz DDR4 SODIMM.)
-          </p>
+  <p>
+    I tried to get it to analyse a PDF document,
+    <a href="https://www.cia.gov/resources/csi/static/Kent-Profession-Intel-Analysis.pdf">
+      <em>Sherman Kent and the Profession of Intelligence Analysis</em>
+    </a>,
+    but it didn’t identify the key parts of the document. It gave me a timeline
+    of his life and a list of published works. I was looking for “Kent’s
+    Analytic Doctrine.”
+  </p>
 
-          <h2>sources</h2>
-          <p>
-        
-- [Matthew Chapman, How Run an AI Team on Grok Bot](https://www.mattchapman.net/)
-- [Matthew Chapman, Local AI on the Mac](https://www.mattchapman.net/)
-- [Marian Montagnino, Is 8GB Enough for Local AI? I Tested It on My Mac](https://youtu.be/H8L1lM7lBHA)
-- [Yvan Goudard, Forget the complicated guides: running local LLMs is easier than you think](https://yvangoudard.substack.com/p/forget-the-complicated-guides-running)
+  <p>
+    I’ve ordered two 16GB RAM sticks, which will bring the M910q up to 32GB
+    and let me try larger AI models.
+  </p>
 
-          </p>
+  <section class="article-details" aria-labelledby="hardware-heading">
+    <h2 id="hardware-heading">Hardware</h2>
+    <ul>
+      <li>8GB Lenovo ThinkCentre M910q</li>
+      <li>Waiting on 2 × 16GB RAM sticks (G.Skill Ripjaws 16GB 3200MHz DDR4 SODIMM)</li>
+    </ul>
+  </section>
 
-          
-        </div>
-      </article>
+  <section class="article-details" aria-labelledby="sources-heading">
+    <h2 id="sources-heading">Sources</h2>
+    <ul>
+      <li><a href="https://www.mattchapman.net/">Matthew Chapman, “How Run an AI Team on Grok Bot”</a></li>
+      <li><a href="https://www.mattchapman.net/">Matthew Chapman, “Local AI on the Mac”</a></li>
+      <li><a href="https://youtu.be/H8L1lM7lBHA">Marian Montagnino, “Is 8GB Enough for Local AI? I Tested It on My Mac”</a></li>
+      <li><a href="https://yvangoudard.substack.com/p/forget-the-complicated-guides-running">Yvan Goudard, “Forget the Complicated Guides: Running Local LLMs Is Easier Than You Think”</a></li>
+    </ul>
+  </section>
+</div>
+
 
       <footer class="footer">
         <p><a href="index.html">← back to all posts</a></p>
