@@ -196,7 +196,7 @@ body {
 }
 .article-body h2 {
   margin: 2.5rem 0 0.85rem;
-  font-family: var(--font-mono);
+font-family: var(--font-serif);
   font-size: 0.9rem;
   font-weight: 500;
   letter-spacing: 0.08em;
